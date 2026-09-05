@@ -1,110 +1,151 @@
-🧭 Treasure Maze Game (C++)
-📌 Introduction
+![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
+![Console](https://img.shields.io/badge/Console%20Application-grey?style=for-the-badge)
+![DFS](https://img.shields.io/badge/Algorithm-Depth%20First%20Search-blue?style=for-the-badge)
 
-The Treasure Maze Game is a console-based game developed in C++ that combines maze generation, player movement, scoring, and multiple difficulty levels. The objective of the game is to navigate through a randomly generated maze, collect treasures, avoid walls, and reach the exit before losing all lives.
+# 🧭 Treasure Maze Game
 
-This project demonstrates the use of data structures, recursion, dynamic memory allocation, control flow, and user interaction in C++. The game also uses UTF-8 characters and ANSI colors to enhance the visual experience in the console.
+Treasure Maze Game is a **console-based adventure game** developed as a **team project** using **C++**. The game challenges players to navigate through randomly generated mazes, collect treasures, avoid obstacles, and reach the exit while managing limited lives.
 
-🎯 Game Objective
+The project was created to strengthen our understanding of **algorithms, recursion, dynamic memory allocation, data structures, and console application development** through an interactive game.
 
-Navigate the player through the maze
+---
 
-Collect treasures to increase score
+## ✨ Features
 
-Avoid hitting walls (each hit reduces a life)
+- 🧩 Random maze generation using **Depth First Search (DFS)**
+- 🎯 Three difficulty levels:
+  - Easy
+  - Medium
+  - Hard
+- 💰 Treasure collection system
+  - Gold (+10 Points)
+  - Silver (+5 Points)
+  - Diamond (+20 Points)
+- ❤️ Three-life gameplay system
+- 📊 Score tracking across multiple levels
+- 🎨 UTF-8 symbols with ANSI colored console interface
+- 👤 Personalized player name
+- 🔄 Replay functionality
 
-Reach the exit to complete the level
+---
 
-Finish all levels to win the game
+## 🛠️ Tech Stack
 
-🕹️ Game Features
+### Language
 
-Random Maze Generation using Depth First Search (DFS)
+- C++
 
-Multiple Difficulty Levels
+### Libraries
 
-Easy (1 Level, Small Maze)
+- iostream
+- string
+- cstdlib
+- ctime
+- limits
+- windows.h
 
-Medium (2 Levels, Medium Maze)
+---
 
-Hard (3 Levels, Large Maze)
+## 💡 Programming Concepts
 
-Treasure System
+This project demonstrates the implementation of:
 
-💰 Gold (+10 points)
+- Depth First Search (DFS)
+- Recursion
+- Dynamic Memory Allocation
+- Arrays & Pointers
+- Random Number Generation
+- Functions
+- Loops
+- Conditional Statements
+- Console-Based User Interface
+- Memory Management
 
-🪙 Silver (+5 points)
+---
 
-💎 Diamond (+20 points)
+## 📸 Screenshots
 
-Lives System
+### 📖 Game Rules
 
-Player starts with 3 lives
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/798ed15e-0650-4917-afb6-4fb4b6a52c42" width="750">
+</p>
 
-Game ends when lives reach zero
+---
 
-Colorful & Emoji-Based UI
+### 🎯 Difficulty Selection
 
-Score Tracking Across Levels
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/b2f8b3e7-1d2a-4b01-a3f5-b64ca41550b5" width="600">
+</p>
 
-Replay Option
+---
 
-🎮 Controls
-Key	Action
-W	Move Up
-S	Move Down
-A	Move Left
-D	Move Right
-🧱 Symbols Used
-Symbol	Meaning
-🧍	Player
-🟦	Wall
-💰	Gold
-🪙	Silver
-💎	Diamond
-🚪	Exit
-🛠️ Technologies Used
+### 🎮 Gameplay
 
-Language: C++
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/1b125eaf-05e5-417c-bb79-31d1e524652e" width="650">
+</p>
 
-Libraries:
+---
 
-<iostream>
+## 🎮 Controls
 
-<cstdlib>
+| Key | Action |
+|------|--------|
+| **W** | Move Up |
+| **A** | Move Left |
+| **S** | Move Down |
+| **D** | Move Right |
 
-<ctime>
+---
 
-<string>
+## 🎯 Objective
 
-<windows.h>
+- Navigate through the maze.
+- Collect treasures to increase your score.
+- Avoid hitting walls and losing lives.
+- Reach the exit to complete the level.
+- Complete all levels to win the game.
 
-Concepts Applied:
+---
 
-Recursion (DFS Maze Generation)
+## 🚀 Getting Started
 
-Dynamic Memory Allocation
+1. Clone the repository
 
-Arrays & Pointers
+```bash
+git clone https://github.com/AyeshaIrfan2/Treasure-Maze-Game.git
+```
 
-Conditional Statements
+2. Open the project in Visual Studio or any C++ IDE.
 
-Loops
+3. Build and run the project.
 
-Random Number Generation
+4. Ensure your terminal supports UTF-8 encoding for the best visual experience.
 
-Console Handling (UTF-8 & Colors)
+---
 
-🚀 How to Run the Game
+## 🤝 Team Project
 
-Compile the code using a C++ compiler (e.g., Visual Studio or g++)
+This project was developed collaboratively as part of a university coursework project. It is included in my portfolio to showcase experience working in a team environment while applying fundamental C++ programming concepts and algorithms.
 
-Make sure the console supports UTF-8 characters
+---
 
-Run the program
+## 🔮 Future Improvements
 
-Enter player name
+- Save & Load Game
+- Leaderboard System
+- Background Music
+- Enemy Characters
+- Additional Treasure Types
+- Time-Based Challenges
+- Multiple Maze Themes
 
-Select difficulty level
+---
 
-Use W, A, S, D keys to play
+## 👩‍💻 Author
+
+**Ayesha Irfan**
+
+GitHub: https://github.com/AyeshaIrfan2
